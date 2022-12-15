@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="ticTacToe.css">
+  </head>
+  <body>
+    <h1>TicTacToe</h1>
+    <br><br>
+    <h3 class="turnOrWin"><span class="turn">X</span>'s Turn</h3>
+    <div class="table">
+    <table>
+      <tr class="row1">
+        <th class="box1"></th>
+        <th class="box2"></th>
+        <th class="box3"></th>
+      </tr>
+      <tr>
+        <th class="box4"></th>
+        <th class="box5"></th>
+        <th class="box6"></th>
+      </tr>
+      <tr>
+        <th class="box7"></th>
+        <th class="box8"></th>
+        <th class="box9"></th>
+      </tr>
+    </table>
+    </div>
+    <br>
+    <p class="errorSelection" style="display: none">Please select a square that is not occupied!</p>
+    <button class="confirmTurn" style="display: none; margin-top: 10px">Confirm</button>
+    <button class="restart" style="display: none; margin-top: 10px" onclick="restartGame()">Play Again</button>
+    <script src="ticTacToe.js"></script>
+  </body>
+</html>
